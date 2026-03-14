@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find c:/Users/eduar/Downloads/edmd-next -name assets-landing* -o -name *landing*)",
+      "Bash(find c:/Users/eduar/Downloads/edmd-next/edmd-next -name *.woff* -o -name *.ttf -o -name *.otf)",
+      "Bash(find c:/Users/eduar/Downloads -name *oldplay* -o -name *Goldplay*)",
+      "Read(//c/Windows/Fonts/**)",
+      "Read(//c/Users/eduar/AppData/Local/Microsoft/Windows/Fonts/**)",
+      "Bash(cp \"C:/Users/eduar/AppData/Local/Microsoft/Windows/Fonts/Goldplay-Regular.ttf\" \"c:/Users/eduar/Downloads/edmd-next/edmd-next/public/fonts/\")",
+      "Bash(cp \"C:/Users/eduar/AppData/Local/Microsoft/Windows/Fonts/Goldplay-Medium.ttf\" \"c:/Users/eduar/Downloads/edmd-next/edmd-next/public/fonts/\")",
+      "Bash(cp \"C:/Users/eduar/AppData/Local/Microsoft/Windows/Fonts/Goldplay-SemiBold.ttf\" \"c:/Users/eduar/Downloads/edmd-next/edmd-next/public/fonts/\")",
+      "Bash(cp \"C:/Users/eduar/AppData/Local/Microsoft/Windows/Fonts/Goldplay-Bold.ttf\" \"c:/Users/eduar/Downloads/edmd-next/edmd-next/public/fonts/\")",
+      "Bash(cp \"C:/Users/eduar/AppData/Local/Microsoft/Windows/Fonts/Goldplay-Black.ttf\" \"c:/Users/eduar/Downloads/edmd-next/edmd-next/public/fonts/\")",
+      "Bash(claude mcp:*)"
+    ]
+  }
+}
