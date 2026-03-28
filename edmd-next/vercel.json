@@ -1,8 +1,9 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/links",
-      "destination": "https://dommarcolinodantas-com-br-link-bio.vercel.app/"
+      "destination": "https://dommarcolinodantas-com-br-link-bio.vercel.app/",
+      "permanent": false
     }
   ]
 }
